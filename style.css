@@ -1,0 +1,45 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: grey; */
+    width: 100%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flexbox;
+    flex-direction: row;
+    /* background-color: lightgray; */
+    width: 100%;
+    max-width: 800px;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    background-color: lightgray;
+    display: flex;
+    list-style: none;
+    padding: 12px;
+    margin: 8px;
+    font-size: 13pt;
+}
+
+.Done-btn, .Remove-btn, .Edit-btn {
+    height: 45px;
+    padding: 8px;
+    margin: 2px;
+}
+
+.list-text {
+    font-size: 21px;
+    width: 100%;
+    overflow-wrap: anywhere;
+}
+
